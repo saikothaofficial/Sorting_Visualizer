@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sorting Visualizer</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<header>
+		<h1 align="center">Sorting Visualizer</h1>
+		<nav>
+			<div class="row">
+				<div class="col p-4 gap-4 d-sm-flex newArray">
+					<button class="btn btn-outline-primary" id="newArray">
+						New Array
+					</button>
+					<span class="d-block p-2 bg-danger text-white">
+						Size <input id="arr_sz" type="range" name="size" min=5 max=100 value=20 step=1>
+					</span>
+						
+					<span class="d-block p-2 bg-danger text-white">
+						Speed<input id="speed_input" type="range" name="speed" min=20 max=300 value=40 step=1>
+					</span>
+				</div>
+
+
+				
+				
+
+				<div class="col p-4 gap-4 d-sm-flex justify-content-end">
+
+					<button class="btn btn-outline-success bubbleSort">Bubble Sort</button>
+					<button class="btn btn-outline-success selectionSort">Selection Sort</button>
+					<button class="btn btn-outline-success insertionSort">Insertion Sort</button>
+					<button class="btn btn-outline-success quickSort">Quick Sort</button>
+					<button class="btn btn-outline-success mergeSort">Merge Sort</button>
+
+				</div>
+			</div>
+		</nav>
+	</header>
+	<body class = "p-3 mb-2 bg-dark text-white">
+		<div id="bars" class="flex-container"></div>
+	
+
+		<script src="js_files/sorting.js"></script>
+		<script type="text/javascript" src="js_files/bubble.js"></script>
+		<script type="text/javascript" src="js_files/selection.js"></script>
+		<script type="text/javascript" src="js_files/insertion.js"></script>
+		<script type="text/javascript" src="js_files/quick.js"></script>
+		<script type="text/javascript" src="js_files/merge.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+</html>
