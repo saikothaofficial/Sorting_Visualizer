@@ -1,9 +1,7 @@
 # Sorting_Visualizer
 A Simple Visualizer of some popular sorting algorithms
 
-Try it here:
-
-    https://saikothaofficial.github.io/Sorting_Visualizer/
+Try it here:  <https://saikothaofficial.github.io/Sorting_Visualizer/>
 
 The algorithms include:
 
